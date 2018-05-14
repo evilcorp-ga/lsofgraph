@@ -14,7 +14,7 @@ sudo lsof -n -F | ./lsofgraph | unflatten -l 1 -c 6 | dot -T jpg > /tmp/a.jpg
 ````
 
 In case you are not happy using Lua, there is also a Python port of this script available at
-https://github.com/akme/lsofgraph-python
+https://github.com/akme/lsofgraph-python and a Perl port at https://github.com/tehmoth/lsofgraph
 
 ![example output](/example.jpg)
 
